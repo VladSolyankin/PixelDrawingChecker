@@ -1,0 +1,17 @@
+﻿<Window x:Class="DrawingChecker.TableWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrawingChecker"
+        mc:Ignorable="d"
+        Title="Таблица" Height="350" Width="200">
+    <DataGrid Name="tableDataGrid"
+              LoadingRow="tableDataGrid_LoadingRow">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="16" Width="*"
+                                />
+            <DataGridTextColumn Header="2" Width="*"/>
+        </DataGrid.Columns>
+    </DataGrid>
+</Window>
